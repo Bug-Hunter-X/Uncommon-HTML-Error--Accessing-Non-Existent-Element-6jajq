@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error</title>
+</head>
+<body>
+  <div id="myDiv">
+    <p>This is some text.</p>
+  </div>
+  <script>
+    //Incorrectly referencing a non-existent element
+    document.getElementById("myDiv2").innerHTML = "<b>This will cause an error!</b>"; 
+  </script>
+</body>
+</html>
